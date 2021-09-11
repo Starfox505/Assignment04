@@ -33,7 +33,7 @@ h3 {
     text-align: right;
 }
 
-#blockbuster-films h2 {
+#blockbuster-films h1 {
     color: rgb(117, 77,7);
     font-size: 4rem;
 }
@@ -108,10 +108,10 @@ h3 {
     border-right: 2px white;
 }
 
-#text {
+.text {
     font-size: 4rem;
 }
 
-#contact {
+.contact {
     text-align: center;
 }
