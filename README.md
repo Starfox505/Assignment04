@@ -1,0 +1,1 @@
+This is a biography page about Quentin Tarantino and his films. It features a list of his movies and an in depth look on the films he has made.
