@@ -1,12 +1,22 @@
 body {
     font-size: 18px;
     line-height: 2.25rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
     font-family: Arial;
 }
 
-h1 {
+.shadow {
     font-size: 3rem;
     text-shadow: 4px 4px 4px rgb(206, 85, 48);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-indent: 1.25rem;
 }
 
 h2 {
@@ -25,14 +35,17 @@ h3 {
 
 #blockbuster-films h2 {
     color: rgb(117, 77,7);
+    font-size: 4rem;
 }
 
-#early-indie-films h2 {
+#early-indie-films h1 {
     color: rgb(255, 252, 82);
+    font-size: 4rem;
 }
 
-#later-indie-films h2 {
+#later-indie-films h1 {
     color: rgb(252, 0, 0);
+    font-size: 4rem;
 }
 
 #notable-works h2 {
@@ -93,4 +106,12 @@ h3 {
     text-decoration: none;
     background-color: rgb(0, 195, 255);
     border-right: 2px white;
+}
+
+#text {
+    font-size: 4rem;
+}
+
+#contact {
+    text-align: center;
 }
