@@ -71,20 +71,20 @@ h3 {
     color: rgb(117, 77, 7);
 }
 
-.orange:hover, orange:focus {
+.orange:hover, .orange:focus {
     color: rgb(255, 162, 0);
 }
 
-.red:hover, red:focus {
+.red:hover, .red:focus {
     color: rgb(252, 0, 0);
 }
 
 
-.yellow:hover, yellow:focus {
+.yellow:hover, .yellow:focus {
     color: rgb(255, 252, 82);
 }
 
-.white:hover, white:focus {
+.white:hover, .white:focus {
     color: rgb(251, 255, 252);
 }
 
