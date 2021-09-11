@@ -91,12 +91,44 @@ h2 {
     width: 50%;
 }
 
-a:visited {
-    color: rgb(7, 7, 7) !important,
+a.brown:visited {
+    color: rgb(150, 0, 138);
 }
 
-a:link {
-    color: rgb(52, 255, 34) !important,
+a.orange:visited {
+    color: rgb(150, 0, 138);
+}
+
+a.red:visited {
+    color: rgb(150, 0, 138);
+}
+
+a.yellow:visited {
+    color: rgb(150, 0, 138);
+}
+
+a.white:visited {
+    color: rgb(150, 0, 138);
+}
+
+a.brown:link {
+    color: rgb(47, 0, 255);
+}
+
+a.orange:link {
+    color: rgb(47, 0, 255);
+}
+
+a.red:link {
+    color: rgb(47, 0, 255);
+}
+
+a.yellow:link {
+    color: rgb(47, 0, 255);
+}
+
+a.white:link {
+    color: rgb(47, 0, 255);
 }
 
 a.brown:hover, a.brown:focus, .brown:hover, .brown:focus {
@@ -111,12 +143,11 @@ a.red:hover, a.red:focus, .red:hover, .red:focus {
     color: rgb(252, 0, 0);
 }
 
-
 a.yellow:hover, a.yellow:focus, .yellow:hover, .yellow:focus {
     color: rgb(255, 252, 82);
 }
 
-a.yellow:hover, a.yellow:focus, .white:hover, .white:focus {
+a.white:hover, a.white:focus, .white:hover, .white:focus {
     color: rgb(251, 255, 252);
 }
 
