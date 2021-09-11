@@ -131,6 +131,26 @@ a.white:link {
     color: rgb(47, 0, 255);
 }
 
+a.brown:active {
+ color: rgb(45, 124, 34);
+}    
+
+a.orange:active {
+    color: rgb(45, 124, 34);
+}
+
+a.red:active {
+    color: rgb(45, 124, 34);
+}
+
+a.yellow:active {
+    color: rgb(45, 124, 34);
+}
+
+a.white:active {
+    color: rgb(45, 124, 34);
+}
+
 a.brown:hover, a.brown:focus, .brown:hover, .brown:focus {
     color: rgb(117, 77, 7);
 }
