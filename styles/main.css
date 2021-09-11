@@ -6,6 +6,34 @@ body {
     font-family: Arial;
 }
 
+table {
+    border: .5rem solid rgb(83, 59, 8);
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(206, 0, 0)
+}
+
+tbody:nth-child(1n+1) {
+    background-color: rgb(208, 255, 0);
+}
+
+thead, tfoot {
+    background-color: rgb(206, 0, 0);
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td { 
+    border: 1.5rem rgb(205, 255, 24);
+    padding: .5rem .75rem;
+    text-align: center;
+}
+
 .shadow {
     font-size: 3rem;
     text-shadow: 4px 4px 4px rgb(206, 85, 48);
@@ -21,11 +49,6 @@ p {
 
 h2 {
     font-size: 2.5rem;
-    text-align: center;
-}
-
-h3 {
-    font-size: 2rem;
     text-align: center;
 }
 
@@ -56,8 +79,9 @@ h3 {
     font-size: 1.25rem;
 }
 
-#once-upon-a-time-in-hollywood h2 {
+#once-upon-a-time-in-hollywood h1 {
     color: rgb(255, 162, 0);
+    font-size: 4rem;
 }
 
 .centered-movie-image {
@@ -67,24 +91,32 @@ h3 {
     width: 50%;
 }
 
-.brown:hover, .brown:focus {
+a:visited {
+    color: rgb(7, 7, 7) !important,
+}
+
+a:link {
+    color: rgb(52, 255, 34) !important,
+}
+
+a.brown:hover, a.brown:focus, .brown:hover, .brown:focus {
     color: rgb(117, 77, 7);
 }
 
-.orange:hover, .orange:focus {
+a.orange:hover, a.orange:focus, .orange:hover, .orange:focus {
     color: rgb(255, 162, 0);
 }
 
-.red:hover, .red:focus {
+a.red:hover, a.red:focus, .red:hover, .red:focus {
     color: rgb(252, 0, 0);
 }
 
 
-.yellow:hover, .yellow:focus {
+a.yellow:hover, a.yellow:focus, .yellow:hover, .yellow:focus {
     color: rgb(255, 252, 82);
 }
 
-.white:hover, .white:focus {
+a.yellow:hover, a.yellow:focus, .white:hover, .white:focus {
     color: rgb(251, 255, 252);
 }
 
@@ -108,10 +140,10 @@ h3 {
     border-right: 2px white;
 }
 
-.text {
+#text {
     font-size: 4rem;
 }
 
-.contact {
+#contact {
     text-align: center;
 }
