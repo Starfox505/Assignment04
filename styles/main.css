@@ -35,12 +35,13 @@ th, td {
 }
 
 .shadow {
-    font-size: 3rem;
+    font-size: 4rem;
     text-shadow: 4px 4px 4px rgb(206, 85, 48);
 }
 
 h1 {
     text-align: center;
+    font-size: 4rem;
 }
 
 p {
@@ -91,64 +92,12 @@ h2 {
     width: 50%;
 }
 
-a.brown:visited {
+a.brown:visited, a.orange:visited, a.red:visited, a.yellow:visited, a.white:visited {
     color: rgb(150, 0, 138);
 }
 
-a.orange:visited {
-    color: rgb(150, 0, 138);
-}
-
-a.red:visited {
-    color: rgb(150, 0, 138);
-}
-
-a.yellow:visited {
-    color: rgb(150, 0, 138);
-}
-
-a.white:visited {
-    color: rgb(150, 0, 138);
-}
-
-a.brown:link {
+a.brown:link, a.orange:link, a.red:link, a.yellow:link, a.white:link {
     color: rgb(47, 0, 255);
-}
-
-a.orange:link {
-    color: rgb(47, 0, 255);
-}
-
-a.red:link {
-    color: rgb(47, 0, 255);
-}
-
-a.yellow:link {
-    color: rgb(47, 0, 255);
-}
-
-a.white:link {
-    color: rgb(47, 0, 255);
-}
-
-a.brown:active {
- color: rgb(18, 90, 8);
-}    
-
-a.orange:active {
-    color: rgb(18, 90, 8);
-}
-
-a.red:active {
-    color: rgb(18, 90, 8);
-}
-
-a.yellow:active {
-    color: rgb(18, 90, 8);
-}
-
-a.white:active {
-    color: rgb(18, 90, 8);
 }
 
 a.brown:hover, a.brown:focus, .brown:hover, .brown:focus {
@@ -171,28 +120,28 @@ a.white:hover, a.white:focus, .white:hover, .white:focus {
     color: rgb(251, 255, 252);
 }
 
-#nav_list {
+a.brown:active, a.orange:active, a.red:active, a.yellow:active, a.white:active {
+    color: rgb(18, 90, 8);
+}    
+   
+#nav-list {
     text-align: center;
 }
 
-#nav_list ul {
+#nav-list ul {
     list-style-type: none;
     display: inline-block;
 }
 
-#nav_list ul li {float: left;}
+#nav-list ul li {float: left;}
 
-#nav_list ul li a{
+#nav-list ul li a{
     text-align: center;
     width: 170px;
     padding: 1em;
     text-decoration: none;
     background-color: rgb(0, 195, 255);
     border-right: 2px white;
-}
-
-#text {
-    font-size: 4rem;
 }
 
 #contact {
